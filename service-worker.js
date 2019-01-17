@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/asharman/React-Clicky-Game/precache-manifest.3e94ef93fdc2f834aae6ed37366cfb44.js"
+  "/React-Clicky-Game/precache-manifest.eb623cbcda6912d2083f5a1eda6f68d3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/asharman/React-Clicky-Game/index.html", {
+workbox.routing.registerNavigationRoute("/React-Clicky-Game/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
